@@ -16,6 +16,8 @@ Steps:
 
 `sudo npm install -g pm2 // Install PM2 globally`
 
+- build the project first then run
+
 `pm2 start --name=my-next-app npm -- start // Start Next.js app with PM2`
 
 `pm2 start "yarn start" --name e-commerce-Luxify --cwd /var/www/e-commerce-Luxify`
